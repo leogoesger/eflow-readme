@@ -57,10 +57,10 @@ This flow component describes the first significant increase in flow following t
 
 ### Peak Magnitude Flows
 
-To describe the peak magnitude season, a suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance thresholds over the period of record. For example, the 2% exceedance flow is the flow magnitude that is only exceeded 2% of the time over the period of record. High flows may exceed these thresholds multiple times in some years and not at all in other years. These metrics are calculated for each high flow exceedance threshold in each water year and then the 10th, 50th, and 90th percentile metric values are calculated over the period of record:
+To describe the peak magnitude season, a suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance thresholds over the period of record. For example, the 2% exceedance flow is the flow magnitude that is only exceeded 2% of the time over the period of record. High flows may exceed these thresholds multiple times in some years and not at all in other years. 
 
 * **High flow magnitude**
-  * Peak flow magnitude above the high flow exceedance threshold
+  * Magnitude of the high flow exceedance threshold
 * **High flow timing**
   * Date of the peak flow for each high flow exceedance event
 * **High flow duration**
