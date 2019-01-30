@@ -4,6 +4,10 @@ The eFlows Functional Flow Calculator \(FFC\) quantifies key hydrologic aspects 
 
 For more detailed description of how the FFC metrics were calculated, with code snippets, refer to the [online FFC documentation](https://eflow.gitbook.io/ffc-readme/).
 
+[TOC]
+
+# Hydrology
+
 ## Stream Classification
 
 California's streams can be organized into nine natural stream classes with distinct flow regime patterns and dominant watershed controls \(Figure 1\). These stream classes represent hydrologic conditions prior to major anthropogenic impacts including dams, diversions, and land use changes \([Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7)\). 223 reference gages with 6 - 65 years of reference data formed the foundation for this effort, spanning a wide range of physiographic settings found in California \([Zimmerman et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1111/fwb.13058)\).
@@ -126,3 +130,10 @@ Table 1. Summary of 31 functional flow metrics including the functional flow com
 
 
 
+# Geormorphology
+
+TBD
+
+# Ecology
+
+TBD
