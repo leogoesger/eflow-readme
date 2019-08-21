@@ -69,16 +69,14 @@ Wet-season base flow describes the portion of the water year in which wet season
 
 ### Peak Magnitude Flows
 
-To describe the peak magnitude season, a suite of metrics are calculated for the 10%, 20%, and 50% exeedance values of annual peak flow (10, 5, and 2 year recurrence intervals). High flows may exceed these exceedance values multiple times in some years and not at all in other years.
+To describe the peak magnitude season, a suite of metrics are calculated for the 10%, 20%, and 50% exeedance values of annual peak flow (10, 5, and 2 year recurrence intervals). Flow may exceed these exceedance values multiple times in some years and not at all in other years.
 
-* **High flow magnitude**
-  * Peak flow magnitude above the high flow exceedance threshold
-* **High flow timing**
-  * Date of the peak flow for each high flow exceedance event
-* **High flow duration**
-  * Continuous duration that flow remains above the high flow exceedance threshold
-* **High flow frequency**
-  * Number of times threshold is exceeded per water year
+* **Peak flow magnitude**
+  * Peak flow magnitude (10%, 20%, 50% exeedance values of annual peak flow --> 10, 5, and 2 year recurrence intervals)
+* **Peak flow duration**
+  * Duration of peak flows over wet season (cumulative number of days in which a given peak-flow recurrence interval is exceeded in a year).
+* **Peak flow frequency**
+  * Frequency of peak flow events over wet season (number of times in which a given peak-flow recurrence interval is exceeded in a year).
 
 ### Spring Recession Flows
 
@@ -118,7 +116,6 @@ Table 1. Summary of 31 functional flow metrics including the functional flow com
 |                        | Magnitude (cfs)           | wet season baseflow magnitude (10th/50th percentile)|
 |                        | Duration (days)           | duration                                        |
 |  Peak Magnitude Flows  | Magnitude (cfs)           | Event peak magnitude: 10%, 20%, 50%             |
-|                        | Timing (date)             | Event start date: 10%, 20%, 50%                 |
 |                        | Duration (days)           | Event duration: 10%, 20%, 50%                   |
 |                        | Frequency (#)             | # of events/year: 10%, 20%, 50%                 |
 | Spring Recession Flows | Magnitude (cfs)           | magnitude at start of spring                    |
