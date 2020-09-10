@@ -1,6 +1,6 @@
 ## eFlows Website Purpose
 
-The eFlows Functional Flow Calculator \(FFC\) quantifies key hydrologic aspects of the annual flow regime from any daily streamflow time series. The FFC produces dimensionless reference hydrographs \(defined below\) and a suite of functional flow metrics that quantify functional flow components, referring to portions of the annual flow regime expected to serve distinct geomorphic or ecological functions \([Yarnell et al. 2015](https://academic.oup.com/bioscience/article/65/10/963/245807)\). Results are presented visually and data can be directly downloaded. Users of the FFC can also install and run the FFC on their own computer; for more information see the FFC [installation](../installation.md) section. The hydrographs and metrics enable comparisons of streamflow patterns across regions, natural stream classes, and various forms and magnitudes of flow alteration. The FFC generates 24 core metrics describing aspects of streamflow timing, magnitude, duration, frequency, and rate of change, organized into five functional flow components: 1\) fall pulse flow, 2\) wet-season baseflow, 3\) peak flow, and 4\) spring recession flow, and 5\) dry-season baseflow \(Table 1\).
+The eFlows Functional Flow Calculator \(FFC\) quantifies key hydrologic aspects of the annual flow regime from any daily streamflow time series. The FFC produces dimensionless reference hydrographs \(defined below\) and a suite of functional flow metrics that quantify functional flow components, referring to portions of the annual flow regime expected to serve distinct geomorphic or ecological functions \([Escobar-Arias and Pasternack, 2009a](https://onlinelibrary.wiley.com/doi/abs/10.1002/rra.1316), [Escobar-Arias and Pasternack, 2009b](https://onlinelibrary.wiley.com/doi/abs/10.1002/rra.1335), [Yarnell et al. 2015](https://academic.oup.com/bioscience/article/65/10/963/245807)\). Results are presented visually and data can be directly downloaded. Users of the FFC can also install and run the FFC on their own computer; for more information see the FFC [installation](../installation.md) section. The hydrographs and metrics enable comparisons of streamflow patterns across regions, natural stream classes, and various forms and magnitudes of flow alteration. The FFC generates 24 core metrics describing aspects of streamflow timing, magnitude, duration, frequency, and rate of change, organized into five functional flow components: 1\) fall pulse flow, 2\) wet-season baseflow, 3\) peak flow, and 4\) spring recession flow, and 5\) dry-season baseflow \(Table 1\).
 
 For more detailed description of how the FFC metrics were calculated, with code snippets, refer to the [online FFC documentation](https://eflow.gitbook.io/ffc-readme/).
 
@@ -101,7 +101,7 @@ The dry-season base flow period represents the low magnitude, low variability po
   * 50th and 90th percentile daily flow from the dry season start date to the wet season start date.
 * **Dry-season low flow duration**
   * Duration of low flow period, from the dry season start date to the wet season start date.
-* **Dry-season low flow duration \(\# of no-flow days\)**
+* **Dry-season low flow duration \(\# of no-flow days\) - supplementary metric**
   * Number of days that flow magnitude is 0 during the dry season low flow period.
 
 Table 1. Summary of the 24 core functional flow metrics including the functional flow components they describe, the flow characteristic they quantify, and a brief description.
@@ -112,6 +112,7 @@ Table 1. Summary of the 24 core functional flow metrics including the functional
 |                        | Coefficient of Variation  | standard deviation of flow divided by mean      |
 | Fall Pulse flow        | Magnitude (cfs)           | event peak magnitude                            |
 |                        | Timing (date)             | event start date                                |
+|                        | Duration (days)           | event duration                                  |
 | Wet-Season base flow   | Timing (date)             | start date of wet season                        |
 |                        | Magnitude (cfs)           | wet season baseflow magnitude (10th/50th percentile)|
 |                        | Duration (days)           | duration                                        |
@@ -125,9 +126,14 @@ Table 1. Summary of the 24 core functional flow metrics including the functional
 | Dry Season Base Flow   | Magnitude (cfs)           | baseflow magnitude (50th/90th percentile)       |
 |                        | Timing (date)             | start date of dry season                        |
 |                        | Duration (days)           | duration from start of dry season until start of wet season|
-|                        | Frequency (#)             | # of no-flow days                               |
+|                        | Frequency (#)             | # of no-flow days (supplementary metric)        |
 
+## References
+* Escobar-Arias, M. I. and Pasternack, G. B. 2009. A Hydrogeomorphic Dynamics Approach to Assess In-Stream Ecological Functionality Using the Functional Flows Model, Part 1- Model Characteristics. River Research and Applications 26: 1103-1128, doi: 10.1002/rra.1316.
 
+* Escobar-Arias, M. I. and Pasternack, G. B. 2010. Differences in River Ecological Functions Due to Rapid Channel Alteration Processes in Two California Rivers Using the Functional Flows Model, Part 2- Model Applications. River Research and Applications 27:1-22, doi: 10.1002/rra.1335.
+
+* Yarnell, S. M., Petts, G. E., Schmidt, J. C., Whipple, A. A., Beller, E. E., Dahm, C. N., … Viers, J. H. (2015). Functional Flows in Modified Riverscapes: Hydrographs, Habitats and Opportunities. BioScience, 65(10), 963–972. https://doi.org/10.1093/biosci/biv102
 
 # Geormorphology
 
