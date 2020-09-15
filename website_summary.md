@@ -10,7 +10,16 @@ For more detailed description of how the FFC metrics were calculated, with code 
 
 ## Stream Classification
 
-California's streams can be organized into nine natural stream classes with distinct flow regime patterns and dominant watershed controls \(Figure 1\). These stream classes represent hydrologic conditions prior to major anthropogenic impacts including dams, diversions, and land use changes \([Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7)\). 223 reference gages with 6 - 65 years of reference data formed the foundation for this effort, spanning a wide range of physiographic settings found in California \([Zimmerman et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1111/fwb.13058)\).
+California's streams can be organized into nine natural stream classes with distinct flow regime patterns and dominant watershed controls \(Figure 1\). These stream classes represent hydrologic conditions prior to major anthropogenic impacts including dams, diversions, and land use changes \([Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7)\). 223 reference gages with 6 - 65 years of reference data formed the foundation for this effort, spanning a wide range of physiographic settings found in California \([Zimmerman et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1111/fwb.13058)\). The numbered classes and abbreviations, in the order presented in [Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7), are listed below:
+1. Snowmelt (SM)
+2. High-volume snowmelt and rain (HSR) 
+3. Low-volume snowmelt and rain (LSR)
+4. Winter storms (WS)
+5. Groundwater (GW)
+6. Perennial groundwater and rain (PGR)
+7. Flashy, ephemeral rain (FER) 
+8. Rain and seasonal groundwater (RGW) 
+9. High elevation low precipitation (HLP)
 
 ![Figure 1. Map of California hydrologic classification.](FinalCAClassification.jpg)
 
